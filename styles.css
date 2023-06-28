@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Poppins&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+html {
+	scroll-behavior: smooth;
+	transition: 2s ease-in;
+}
+* {
+	font-family: "poppins", sans-serif;
+	font-weight: 500;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+.logo-id {
+	color: #193419;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 38px;
+	line-height: 58px;
+	padding: 0px 100px;
+}
+
+.green {
+	color: #193419;
+}
+.link {
+	color: #193419;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 15px;
+}
+.link:hover {
+	color: #cacd30;
+	transition: 200ms ease-out;
+}
+.offer {
+	font-size: 52px;
+	font-weight: 500;
+	line-height: 80px;
+	letter-spacing: -0.03em;
+	text-align: center;
+}
+.offer span {
+	font-style: italic;
+}
+.form {
+	height: 55px;
+	width: 38%;
+	border: 1px solid #cacd30;
+	outline: #cacd30;
+	font-size: 20px;
+	padding-left: 60px;
+}
+input::placeholder {
+	line-height: 33.6px;
+	color: #909590;
+}
+.search {
+	color: #909590;
+	font-size: 24px;
+	position: relative;
+	top: 18px;
+	left: 85px;
+}
+.gap {
+	gap: 40px;
+}
+.btm {
+	background: #193419;
+	color: #ffffff;
+	outline: #193419;
+	height: 55px;
+	width: 38%;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 34px;
+	border: none;
+}
+.btm:hover {
+	background: #1f411f;
+	transition: 100ms ease-in;
+}
+.about1 {
+	color: #193419;
+	font-size: 48px;
+	font-weight: 500;
+	line-height: 62px;
+	letter-spacing: -0.015em;
+	text-align: center;
+}
+.about2 {
+	color: #193419;
+
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 36px;
+	letter-spacing: -0.015em;
+	text-align: center;
+	width: 70%;
+	margin: auto;
+}
+.image1 {
+	height: 548px;
+	width: 1229px;
+	left: 95px;
+	top: 1910px;
+	border-radius: 0px;
+}
+.pose {
+	background: #193419;
+	color: #ffffff;
+	outline: #193419;
+
+	height: 55px;
+	width: 100%;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 34px;
+	border: none;
+}
+.pose:hover {
+	background: #1f411f;
+	transition: 100ms ease-in;
+}
+.float {
+	margin-left: 150px;
+	cursor: pointer;
+	font-size: 25px;
+}
+.view {
+	border: #cacd30 2px solid;
+	padding: 17px;
+	color: #cacd30;
+	font-weight: 500;
+	background: #ffff;
+	justify-content: center;
+	justify-self: center;
+}
+.tes {
+	font-weight: 500;
+	line-height: 62px;
+	letter-spacing: -0.015em;
+	text-align: center;
+}
+/* for splide.css */
+img .image {
+	max-width: 100%;
+}
+.splide__list {
+	display: grid;
+	place-items: center;
+	height: 60vh;
+}
+.splide__track {
+	padding: 30px 15px;
+	max-width: 1200x;
+	margin: 0 auto;
+}
+#Ellipse{
+width: min-content;
+}
+.text{
+	color: #909590;
+
+}
+.text-tes{
+	max-width: 250px;
+	font-size: 16px;
+}
+.border-tes{
+border: #cacd30 1px solid;
+padding: 26px;
+background: #F6F0F6;
+
+	
+}
+.border-tesv{
+	border: #cacd30 1px solid;
+	padding: 38px;
+	background: #F6F0F6;
+	
+		
+	}
+	footer{
+		background: #F9F7ED;
+		color: #193419;
+		height: 50vh;
+overflow:hidden;
+margin-top: 100px;
+padding-bottom: 0;
+	}
+	.contact-text{
+		
+padding-top:40px ;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+
+	}
+	.icon-a{
+		height: 39px;
+width: 39px;
+
+
+
+	}
+	.icons{
+		color: #ffffff;
+		background: #CACD30;
+		padding: 20px;
+		margin-top: 20px;
+		margin-left: 18px;
+		font-size: 28px;
+	
+		border-radius: 50%;
+		
+	}
+th{
+	font-weight: 600;
+	padding-left: 200px;
+}
+td{
+	padding-left: 200px;
+	padding-top: 30px;
+	font-weight: 500;	
+}
